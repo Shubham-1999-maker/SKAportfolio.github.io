@@ -1,0 +1,41 @@
+.container{
+    color: white;
+    display: inline;
+}
+.container .heading{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.container .regno,.studying,.address{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;   
+}
+.container .email{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.topic{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+@media only screen and (max-width:700px){
+    .container .heading{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .container .studying,.address,.topic{
+        font-size: 20px;
+    }
+    .container .regno{
+        font-size: 20px;
+    }
+    .container .email{
+        font-size: 20px
+    }
+}
